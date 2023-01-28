@@ -1,16 +1,20 @@
-# wsl
-
-https://learn.microsoft.com/zh-cn/windows/wsl/
-
 # 换源
 
 https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
+
+
+22.04LTS 2023-1-28
+```bash
+sudo sed -i "s@http://.*archive.ubuntu.com@https://mirrors.tuna.tsinghua.edu.cn@g" /etc/apt/sources.list
+sudo sed -i "s@http://.*security.ubuntu.com@https://mirrors.tuna.tsinghua.edu.cn@g" /etc/apt/sources.list
+```
 
 # vim
 
 https://missing-semester-cn.github.io/2020/editors/
 
-`>vim FileName`进入正常模式。
+```vim FileName```
+开始进入正常模式。
 
 按`i`进入插入模式，跟正常编辑器一样使用。按`Esc`返回正常模式。
 
@@ -21,4 +25,6 @@ https://missing-semester-cn.github.io/2020/editors/
 
 ![](PasteImage/2023-01-28-13-01-24.png)
 
-`export all_proxy="socks5://192.168.0.106:7890"`
+```bash
+export all_proxy="socks5://192.168.0.106:7890"
+```
