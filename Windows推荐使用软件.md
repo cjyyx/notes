@@ -47,7 +47,8 @@
 - 腾讯文档
 - NeatConverter：文档转换
 - NoteExpress：文献管理
-
+- 知云文献翻译：阅读PDF格式英文书籍、论文
+- Notepad3：记事本++
 
 
 ## 其它
