@@ -50,6 +50,18 @@
 - 知云文献翻译：阅读PDF格式英文书籍、论文
 - Notepad3：记事本++
 
+## 学习
+
+- 百度翻译
+- Xtranslator：比百度翻译好用
+- 全球学术快报（会内存泄漏）
+- 每日英语听力
+- AxGlyph：论文插图绘制
+- Maple：符号计算
+- OriginPro：实验数据绘图
+- GeoGebra：数学图形绘制，几何画板
+
+
 
 ## 其它
 
@@ -58,20 +70,13 @@
 - 谷歌浏览器
 - 火绒：轻量杀毒软件
 - 酷呆桌面coodesker：桌面整理
-- 百度翻译
 - GT4T：便捷翻译
 - 按键精灵
 - 百度网盘
-- 每日英语听力
 - 腾讯会议
 - zoom
-- 全球学术快报（会内存泄漏）
 - TapFog
 - Clash For Windows
 - Blender：3d建模，查看
 - TIM：平替QQ
-- AxGlyph：论文插图绘制
-- GeoGebra：数学图形绘制，几何画板
 - Drawio：绘图工具，建议使用vscode插件版
-- Maple：符号计算
-- OriginPro：实验数据绘图
