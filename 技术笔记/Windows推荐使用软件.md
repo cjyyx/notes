@@ -80,3 +80,4 @@
 - Blender：3d建模，查看
 - TIM：平替QQ
 - Drawio：绘图工具，建议使用vscode插件版
+- diskgenius：磁盘管理工具，数据恢复
