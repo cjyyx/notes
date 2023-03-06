@@ -24,6 +24,8 @@ pandoc -f markdown+tex_math_single_backslash -o test1.pdf --pdf-engine=pdflatex
 ```
 
 
+https://zhuanlan.zhihu.com/p/444440478
+
 ## 输出网页
 
 ```bash
