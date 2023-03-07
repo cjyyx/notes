@@ -51,6 +51,21 @@ CJKoptions: ItalicFont=KaiTi
 
 `latex_engine: xelatex`表明采用`xelatex`进行渲染，该引擎支持中文字符。`CJKxxx`命令表示设置中文字体。
 
+## 不要使用 \bm
+
+不要使用`\bm`，会报错`! Extended mathchar used as mathchar (14799973)`。
+
+## 不要使用 \mathbf
+
+渲染有问题
+
+## 不要在同一行使用多个行内公式
+
+会识别成一个行内公式，然后渲染有问题
+
+总之，bug一堆
+
+
 ## 设置文档
 
 附上我觉得比较合适的设置
