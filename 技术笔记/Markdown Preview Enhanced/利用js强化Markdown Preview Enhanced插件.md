@@ -1,0 +1,3 @@
+# 利用js强化Markdown Preview Enhanced插件
+
+Markdown Preview Enhanced是一款适用于VS Code和Atom编辑器的插件，它能够在编辑Markdown文件时，实时预览渲染后的效果。其原理是在编辑器中插入一个webview，将Markdown文件解析成HTML，再通过webview展示出来。因此该插件支持在
