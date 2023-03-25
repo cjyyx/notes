@@ -1,21 +1,28 @@
 ---
-html:
-  embed_local_images: false
-  embed_svg: true
-  offline: true
-  toc: true
-
-print_background: false
-
-export_on_save:
-  html: true
-
+puppeteer:
+  timeout: 5000
 ---
 
 [TOC]
 
+<style>
+img{
+  width: 60%;
+  padding-left: 20%;
+}
+img[alt = "三维坐标系下的分离变数法总结"]{
+  width: 100%;
+  padding-left: 0%;
+}
+img[alt = "K函数行为"]{
+  width: 40%;
+  padding-left: 30%;
+}
+</style>
 
-@import "简单分离变数法.md"
-@import "复杂坐标分离变数与特殊函数.md"
-@import "级数解法.md"
+@import "三维坐标系下的分离变数法.md"
+@import "一些方程的级数解.md"
 @import "球函数.md"
+@import "连带勒让德函数.md"
+@import "一般的球函数.md"
+@import "柱函数.md"
