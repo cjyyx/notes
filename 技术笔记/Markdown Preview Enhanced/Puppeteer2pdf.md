@@ -93,3 +93,22 @@ img{
 ```
 
 此时效果与上相同。
+
+## 页码显示
+
+可以在导出的 pdf 文件上显示页码
+
+```yaml
+---
+puppeteer:
+  timeout: 3000
+  displayHeaderFooter: true
+  headerTemplate: '<span class="pageNumber"></span>'
+  footerTemplate: '
+    <div style="font-size: 10px; margin-left: 20px;">
+    <span class="pageNumber"></span> / 
+    <span class="totalPages"></span>
+    </div>
+    '
+---
+```

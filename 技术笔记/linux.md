@@ -28,3 +28,11 @@ https://missing-semester-cn.github.io/2020/editors/
 ```bash
 export all_proxy="socks5://192.168.0.106:7890"
 ```
+
+
+
+# 权限设置
+
+```
+chmod -R +x <path>
+```
