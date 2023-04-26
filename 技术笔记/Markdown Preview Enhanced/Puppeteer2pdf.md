@@ -21,6 +21,7 @@
 ---
 puppeteer:
     format: "A4"
+    scale: 1.0
     margin:
         top: 2cm
         right: 3cm
@@ -29,7 +30,7 @@ puppeteer:
 ---
 ```
 
-这里`format`表示纸张格式，`margin`表示页边距。
+这里`format`表示纸张格式，`scale`表示缩放，`margin`表示页边距。
 
 更多设置可以参考官方文档(https://github.com/puppeteer/puppeteer/blob/v1.8.0/docs/api.md#pagepdfoptions)
 
@@ -42,10 +43,11 @@ puppeteer:
 ```yaml
 ---
 puppeteer:
-  timeout: 3000 # 等待 3000 毫秒（此时认为渲染已完成）后导出
+  timeout: 3000
 ---
 ```
 
+表明等待 3000 毫秒（此时认为渲染已完成）后导出
 
 ## 保存时自动导出
 
@@ -58,7 +60,7 @@ export_on_save:
 ---
 ```
 
-## 图片显示
+## 图片调整大小
 
 导出的pdf文档中，图片可能过大，解决方法是添加自定义 css。
 
@@ -94,6 +96,45 @@ img{
 
 此时效果与上相同。
 
+当然有更好玩的方法，使 `style.css` 为
+
+```css
+img[src*="#w100"] {
+width: 100%;
+}
+
+img[src*="#w80"] {
+width: 80%;
+}
+
+img[src*="#w60"] {
+width: 60%;
+}
+
+img[src*="#w50"] {
+width: 50%;
+}
+
+img[src*="#w30"] {
+width: 30%;
+}
+
+img[src*="#w20"] {
+width: 20%;
+}
+
+img[src*="#w10"] {
+width: 10%;
+}
+```
+
+此时 markdown 写法如下，就可以调整图片大小
+
+```markdown
+![img.png](./<path>/img.png#w60)
+```
+
+
 ## 页码显示
 
 可以在导出的 pdf 文件上显示页码
@@ -101,14 +142,53 @@ img{
 ```yaml
 ---
 puppeteer:
-  timeout: 3000
-  displayHeaderFooter: true
-  headerTemplate: '<span class="pageNumber"></span>'
-  footerTemplate: '
-    <div style="font-size: 10px; margin-left: 20px;">
-    <span class="pageNumber"></span> / 
-    <span class="totalPages"></span>
-    </div>
-    '
+    timeout: 3000
+    displayHeaderFooter: true
+    headerTemplate: '<span class="pageNumber"></span>'
+    footerTemplate: '
+        <div style="font-size: 10px; margin-left: 20px;">
+        <span class="pageNumber"></span> / 
+        <span class="totalPages"></span>
+        </div>
+        '
+---
+```
+
+## 简单排版
+
+添加大段空行
+
+```markdown
+<p style="margin-bottom: 400px;"></p>
+```
+
+换页，只有在导出为PDF时才会起作用
+
+```markdown
+<div STYLE="page-break-after: always;"></div>
+```
+
+## 总结
+
+比较合适的 `front-matter` 为
+
+```yaml
+---
+puppeteer:
+    scale: 0.8
+    margin:
+        top: 2cm
+        right: 3cm
+        bottom: 2cm
+        left: 3cm
+    timeout: 3000
+    displayHeaderFooter: true
+    headerTemplate: '<span class="pageNumber"></span>'
+    footerTemplate: '
+        <div style="font-size: 10px; margin-left: 20px;">
+        <span class="pageNumber"></span> / 
+        <span class="totalPages"></span>
+        </div>
+        '
 ---
 ```

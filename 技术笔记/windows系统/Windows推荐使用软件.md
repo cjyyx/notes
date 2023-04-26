@@ -4,6 +4,26 @@
 
 个人记录，顺便分享
 
+## 电脑信息查看
+
+- 安兔兔评测
+
+- 鲁大师：娱乐跑分，硬件检查
+
+- 图吧工具箱
+
+- HWiNFO64：据说温度功耗检测比较好用
+
+    
+
+- Trays：任务栏信息显示（不兼容新版win11）
+
+- TrafficMonitor：任务栏信息显示
+
+    
+
+- spacesniffer：可视化查看文件占用空间
+
 ## 工具
 
 - 格式工厂
@@ -11,14 +31,19 @@
 - ev录屏
 - Free Download Manager
 - 光影魔术手：图片强化
+
+
+
+- NeatConverter：文档格式转换
+
 - PDFPatcher：PDF转图片，图片合成PDF
 - ComicEnhancerPro5：图片修改，批处理；扫描件优化必备
 - PdgCntEditor：PDF书签编辑
+
+
+
 - Kite_win：连手机，记录手机帧率
-- spacesniffer：可视化查看文件占用空间
-- Trays：任务栏信息显示
 - 冰点下载：下载百度文库等
-- 图吧工具箱
 - Audacity：开源音频编辑软件
 - Watt Toolkit：GitHub,Steam DNS解析
 - 能源之星X：省电模式
@@ -42,28 +67,36 @@
 
 ## 文档
 
-- 稻壳阅读器：支持 PDF, EPUB, MOBI, AWZ3 等格式阅读
+- 稻壳阅读器：轻量文档阅读器，支持 PDF, EPUB, MOBI, AWZ3 等格式
 - Adobe acrcbat dc
 - 腾讯文档
 - NeatConverter：文档转换
 - NoteExpress：文献管理
 - 知云文献翻译：阅读PDF格式英文书籍、论文
-- Notepad3：记事本++
+- Notepad3：记事本 pro max +
 - ABBYY FineReader PDF 15：文档ocr无敌，但有点贵
 - PDF-XChange Viewer：基本免费，ocr不弱于ABBYY
+- Typora：markdown编辑器
 
 ## 学习
 
 - 百度翻译
 - Xtranslator：比百度翻译好用
+- 知云文献翻译
 - 全球学术快报（会内存泄漏）
 - 每日英语听力
+
+
+
 - AxGlyph：论文插图绘制
+- XMind 8：思维导图，打开xmind格式文件
+
+
+
 - Maple：符号计算
 - OriginPro：实验数据绘图
 - GeoGebra：数学图形绘制，几何画板
-
-
+- 催化剂加 CatalystPlus：文献管理，目前还不好用，蹲一波
 
 ## 其它
 
@@ -75,6 +108,7 @@
 - GT4T：便捷翻译
 - 按键精灵
 - 百度网盘
+- 阿里云盘
 - 腾讯会议
 - zoom
 - TapFog
@@ -83,3 +117,4 @@
 - TIM：平替QQ
 - Drawio：绘图工具，建议使用vscode插件版
 - diskgenius：磁盘管理工具，数据恢复
+- Telegram
