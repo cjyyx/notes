@@ -31,8 +31,17 @@ export all_proxy="socks5://192.168.0.106:7890"
 
 
 
-# 权限设置
+## 权限设置
 
 ```
 chmod -R +x <path>
 ```
+
+## 删除
+
+```bash
+rm -rf <foldername>
+```
+
+
+
