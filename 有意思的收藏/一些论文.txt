@@ -1,0 +1,4 @@
+国内有一高校老师做了一个研究，把机场免费给学生们发放使用，他可以在后台收集学生的浏览记录，分析使用机场浏览网站与浏览国内网站的行为差异。
+
+Chen, Yuyu, and David Y. Yang. 2019. "The Impact of Media Censorship: 1984 or Brave New World?" American Economic Review, 109 (6): 2294-2332.
+DOI: 10.1257/aer.20171765
