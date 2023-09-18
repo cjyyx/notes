@@ -12,7 +12,7 @@
 
 - 图吧工具箱
 
-- HWiNFO64：据说温度功耗检测比较好用
+- HWiNFO64：据说温度功耗检测比较好用，图吧工具箱中有
 
     
 
@@ -36,7 +36,7 @@
 
 - NeatConverter：文档格式转换
 
-- PDFPatcher：PDF转图片，图片合成PDF
+- PDFPatcher：强大的开源pdf工具，PDF转图片，图片合成PDF
 - ComicEnhancerPro5：图片修改，批处理；扫描件优化必备
 - PdgCntEditor：PDF书签编辑
 
@@ -47,6 +47,10 @@
 - Audacity：开源音频编辑软件
 - Watt Toolkit：GitHub,Steam DNS解析
 - 能源之星X：省电模式
+
+
+
+- netlimiter：软件下载限速，与火绒中的流量监视器作用类似
 
 
 ## 编程开发
@@ -63,6 +67,7 @@
 - GitHub Desktop：git GUI
 - CheatEngine：软件/游戏破解
 - SQLite Expert：sqlite数据库查看
+- Another Redis Desktop Manager：Redis数据库查看
 - WinSCP：远程服务器文件管理
 
 ## 文档
@@ -71,21 +76,26 @@
 - Adobe acrcbat dc
 - 腾讯文档
 - NeatConverter：文档转换
-- NoteExpress：文献管理
-- 知云文献翻译：阅读PDF格式英文书籍、论文
+
+
+
 - Notepad3：记事本 pro max +
+
+
 - ABBYY FineReader PDF 15：文档ocr无敌，但有点贵
 - PDF-XChange Viewer：基本免费，ocr不弱于ABBYY
+
+
 - Typora：markdown编辑器
 
 ## 学习
 
 - 百度翻译
 - Xtranslator：比百度翻译好用
-- 知云文献翻译
+- 知云文献翻译：阅读PDF格式英文书籍、论文
 - 全球学术快报（会内存泄漏）
 - 每日英语听力
-
+- NoteExpress：文献管理
 
 
 - AxGlyph：论文插图绘制
@@ -116,5 +126,5 @@
 - Blender：3d建模，查看
 - TIM：平替QQ
 - Drawio：绘图工具，建议使用vscode插件版
-- diskgenius：磁盘管理工具，数据恢复
+- diskgenius：**超强**磁盘管理工具，数据恢复，图吧工具箱中有免费版的
 - Telegram
