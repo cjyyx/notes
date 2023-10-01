@@ -1,4 +1,10 @@
-国内有一高校老师做了一个研究，把机场免费给学生们发放使用，他可以在后台收集学生的浏览记录，分析使用机场浏览网站与浏览国内网站的行为差异。
+1. 国内有一高校老师做了一个研究，把机场免费给学生们发放使用，他可以在后台收集学生的浏览记录，分析使用机场浏览网站与浏览国内网站的行为差异。
 
 Chen, Yuyu, and David Y. Yang. 2019. "The Impact of Media Censorship: 1984 or Brave New World?" American Economic Review, 109 (6): 2294-2332.
 DOI: 10.1257/aer.20171765
+
+
+2. 这是北大发表在NeurlPS 2022上的一篇论文 叫做Eliciting Thinking Hierarchy without a Prior
+如果多数人都犯错了，要如何发现真相？专业度高的人可以预测专业度低的答案，反之则不能。这种认知水平的向下兼容可以形成一个认知链。通过对矩阵的分析算法能够判断答题者的思维水平等级
+
+https://www.bilibili.com/video/BV1gw411e7V6
