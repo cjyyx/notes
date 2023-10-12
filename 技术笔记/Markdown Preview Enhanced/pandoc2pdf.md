@@ -1,5 +1,5 @@
 #! https://zhuanlan.zhihu.com/p/611580213
-# Markdown Preview Enhanced插件利用pandoc导出pdf文件的一些问题
+# VS Code 中 Markdown Preview Enhanced 插件利用 pandoc 导出 pdf 文件的一些问题
 
 ## pandoc的安装
 

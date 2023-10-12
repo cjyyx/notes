@@ -1,5 +1,5 @@
 #! https://zhuanlan.zhihu.com/p/615810007
-# Markdown Preview Enhanced插件利用Chrome (Puppeteer)导出pdf文件
+# VS Code 中 Markdown Preview Enhanced 插件利用 Chrome (Puppeteer) 导出 pdf 文件使用说明与问题解决
 
 ## 准备
 
@@ -7,15 +7,15 @@
 
 ## 使用方法
 
-右键点击预览，选择 Chrome (Puppeteer)。
+右键选择 Chrome (Puppeteer)。
 
-![使用方法](PasteImage/2023-03-21-16-08-03.png)
+![使用方法](PasteImage/2023-10-12-12-21-35.png)
 
 ## 设置 Puppeteer
 
-通过`front-matter`
+通过 `front-matter`
 
-即在markdown文档开头加上
+即在 markdown **文档开头**加上 yaml 格式的配置代码
 
 ```yaml
 ---
@@ -30,24 +30,42 @@ puppeteer:
 ---
 ```
 
-这里`format`表示纸张格式，`scale`表示缩放，`margin`表示页边距。
+这里 `format` 表示纸张格式，`scale` 表示缩放，`margin` 表示页边距。
 
-更多设置可以参考官方文档(https://github.com/puppeteer/puppeteer/blob/v1.8.0/docs/api.md#pagepdfoptions)
+更多设置选项说明可以参考官方文档(https://github.com/puppeteer/puppeteer/blob/v1.8.0/docs/api.md#pagepdfoptions)
 
-## 渲染问题
+## 公式渲染问题
 
-有时会方向一些渲染没有显示（如公式），这是因为Puppeteer导出 pdf 的原理是网页快照。渲染还没有完成，网页已被导出。
+有时会发现一些公式渲染没有显示，这是因为 Puppeteer 导出 pdf 的原理是网页快照。渲染还没有完成，网页已被导出。
 
 解决方案是延迟导出时间，即
 
 ```yaml
 ---
 puppeteer:
-  timeout: 3000
+    timeout: 3000
 ---
 ```
 
 表明等待 3000 毫秒（此时认为渲染已完成）后导出
+
+另一种解决方法是修改插件设置，这与上面的方法效果一样
+
+![](PasteImage/2023-10-12-12-12-40.png)
+
+## 代码背景显示问题
+
+有时会发现代码背景没有显示，如图
+
+![](PasteImage/2023-10-12-12-17-10.png)
+
+而预期效果应为
+
+![](PasteImage/2023-10-12-12-15-58.png)
+
+解决方法是修改插件设置，设置打印背景
+
+![](PasteImage/2023-10-12-12-18-11.png)
 
 ## 保存时自动导出
 
@@ -64,7 +82,7 @@ export_on_save:
 
 导出的pdf文档中，图片可能过大，解决方法是添加自定义 css。
 
-即在`front-matter`后加上
+即在 `front-matter` 后加上
 
 ```html
 <style>
@@ -79,7 +97,7 @@ img{
 
 也可导入外部 css 文件。
 
-如在文件`style.css`中有
+如在文件 `style.css` 中有
 
 ```css
 img{
