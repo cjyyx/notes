@@ -4,7 +4,7 @@
 
 个人记录，顺便分享
 
-## 电脑信息查看
+## 系统
 
 - 安兔兔评测
 
@@ -17,14 +17,15 @@
 
 - Trays：任务栏信息显示（不兼容新版win11）
 - TrafficMonitor：任务栏信息显示
-
+- ContextMenuManager：右键管理
 
 ## 工具
 
 - 格式工厂
 - bandzip
 - ev录屏
-- Free Download Manager
+- Free Download Manager：下载软件，2023年使用时遇到bug
+- Internet Download Manager：下载软件
 - 光影魔术手：图片强化
 
 
@@ -62,6 +63,7 @@
 - SQLite Expert：sqlite数据库查看
 - Another Redis Desktop Manager：Redis数据库查看
 - WinSCP：远程服务器文件管理
+- MobaXterm：强大的远程终端，也可以sftp
 
 
 ## 文档
@@ -95,10 +97,12 @@
 
 
 - Maple：符号计算
+- MATLAB：不多说，兼具符号计算
 - OriginPro：实验数据绘图
 - GeoGebra：数学图形绘制，几何画板
 - 催化剂加 CatalystPlus：文献管理，目前还不好用，蹲一波
 
+- PrePoMax：开源有限元仿真
 
 ## 其它
 

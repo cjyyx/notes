@@ -23,10 +23,11 @@ termux-setup-storage
 
 ```bash
 pkg update && pkg upgrade
-pkg install tsu git python3 openssh termux-auth -y
+pkg install tsu wget git python3 openssh termux-auth -y
 ```
 
 - tsu：Termux版的su(sudo)
+- wget：下载工具
 - git：版本控制器
 - python3：不多说了
 - openssh：用于 ssh 和 sftp
@@ -49,7 +50,7 @@ passwd
 
 ### 获取 ipv6 地址
 
-首先确保连入的 WiFi 支持 ipv6。
+首先确保连入的网络支持 ipv6。最简单的方法是访问 http://www.test-ipv6.com/ 查看 ipv6 连接情况。
 
 **方法1**
 
@@ -137,6 +138,44 @@ echo "ssh $user_name@$hostname -p 8022"
 
 想要使用真正的 linux 虚拟机，需要使用 qemu。
 
+## 性能基准测试
+
+<!-- ```bash
+wget https://github.com/kdlucas/byte-unixbench/archive/v5.1.3.tar.gz
+tar -zxvf v5.1.3.tar.gz
+cd byte-unixbench-5.1.3/UnixBench
+make
+./Run
+``` -->
+
+采用如下 python 脚本进行跑分
+
+```python
+import time
+
+def doubleFact(x):
+    ans = 1
+    for i in range(1, x + 1):
+        if i % 2 == x % 2:
+            ans *= i
+    return ans
+
+def asin(x, t):
+    answer = 0
+    for k in range(0, t + 1):
+        a = (doubleFact(2 * k - 1) / doubleFact(2 * k)) * (
+            pow(x, 2 * k + 1) / (2 * k + 1)
+        )
+        # print("k=%d,a=%s" % (k, a))
+        answer += a
+
+    return answer
+
+start_time = time.time()
+print(asin(1, 1666) * 2)
+print("--- %s seconds ---" % (time.time() - start_time))
+```
+
 ## 参考资料
 
 - Termux-Ubuntu22.0.4项目部署（手机服务器实操！！）, https://blog.csdn.net/m0_56349886/article/details/129758123
@@ -144,3 +183,4 @@ echo "ssh $user_name@$hostname -p 8022"
 - 基于ipv6实现几乎零成本的内网穿透方案, https://zhuanlan.zhihu.com/p/638004070
 - 在Termux（非root的安卓Linux模拟器）中安装和使用ftp服务器, https://www.cnblogs.com/-fresh/p/10328331.html
 - Termux解析公网ipv6——从全世界各地连接你的Termux, https://blog.csdn.net/YiBYiH/article/details/127550607
+- Termux和Linux Deploy的性能测试, https://zhuanlan.zhihu.com/p/162121013
