@@ -12,6 +12,8 @@
 
 ## 学习笔记
 
+[嵌入式计算技术复习](https://zhuanlan.zhihu.com/p/668919802)
+
 [工程热力学总结](https://zhuanlan.zhihu.com/p/638534525)
 
 [数理方法中的特殊函数](https://zhuanlan.zhihu.com/p/626661086)
