@@ -33,8 +33,14 @@ README+= "## 技术笔记\n\n"
 for note in getNotes("./技术笔记"):
     README += f"[{note[1]}]({note[2]})\n\n"
 
+README+= "## 项目笔记\n\n"
+for note in getNotes("./项目笔记"):
+    README += f"[{note[1]}]({note[2]})\n\n"
+
 README+= "## 学习笔记\n\n"
 for note in getNotes("./学习笔记"):
+    if "离散数学（" in note[1]:
+        continue
     README += f"[{note[1]}]({note[2]})\n\n"
 
 README+= "## 想法\n\n"

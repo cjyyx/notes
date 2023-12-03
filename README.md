@@ -10,6 +10,20 @@
 
 [基于 Termux 和 ipv6 把手机打造成公网服务器](https://zhuanlan.zhihu.com/p/665711668)
 
+## 项目笔记
+
+[FiPy常用API](https://zhuanlan.zhihu.com/p/614634508)
+
+[FiPy常见问题及解决方案](https://zhuanlan.zhihu.com/p/614003913)
+
+[Gmsh 和 FiPy 求解稳态圆柱绕流](https://zhuanlan.zhihu.com/p/617614907)
+
+[OLED 手机降低频闪原理介绍](https://zhuanlan.zhihu.com/p/642886728)
+
+[OpenFOAM-v2306 安装](https://zhuanlan.zhihu.com/p/660892262)
+
+[扫描版 PDF 目录制作指南](https://zhuanlan.zhihu.com/p/661004681)
+
 ## 学习笔记
 
 [嵌入式计算技术复习](https://zhuanlan.zhihu.com/p/668919802)
@@ -33,16 +47,6 @@
 [电工电子学复习重点整理](https://zhuanlan.zhihu.com/p/638896936)
 
 [离散数学重点整理](https://zhuanlan.zhihu.com/p/639464918)
-
-[离散数学（一）数学基础](https://zhuanlan.zhihu.com/p/637076655)
-
-[离散数学（三）关系与函数](https://zhuanlan.zhihu.com/p/639255571)
-
-[离散数学（二）逻辑](https://zhuanlan.zhihu.com/p/637076932)
-
-[离散数学（五）组合计数](https://zhuanlan.zhihu.com/p/639255918)
-
-[离散数学（四）图与树](https://zhuanlan.zhihu.com/p/639255722)
 
 [积分变换法](https://zhuanlan.zhihu.com/p/627068881)
 
