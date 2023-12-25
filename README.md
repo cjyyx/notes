@@ -22,6 +22,8 @@
 
 [OpenFOAM-v2306 安装](https://zhuanlan.zhihu.com/p/660892262)
 
+[openfoam 修改 src 库](https://zhuanlan.zhihu.com/p/670815002)
+
 [扫描版 PDF 目录制作指南](https://zhuanlan.zhihu.com/p/661004681)
 
 ## 学习笔记
@@ -43,6 +45,8 @@
 [格林函数法](https://zhuanlan.zhihu.com/p/626997324)
 
 [球坐标系和柱坐标系下的分离变数法](https://zhuanlan.zhihu.com/p/626812353)
+
+[理论力学竞赛考前必背](https://zhuanlan.zhihu.com/p/668687030)
 
 [电工电子学复习重点整理](https://zhuanlan.zhihu.com/p/638896936)
 
