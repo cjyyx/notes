@@ -25,27 +25,31 @@
 - bandzip
 - ev录屏
 - Free Download Manager：下载软件，2023年使用时遇到bug
-- Internet Download Manager：下载软件
-- 光影魔术手：图片强化
+- Internet Download Manager：下载软件，收费
 
 
 - NeatConverter：文档格式转换
 
 
-- PDFPatcher：强大的开源pdf工具，PDF转图片，图片合成PDF
-- ComicEnhancerPro5：图片修改，批处理；扫描件优化必备
-- PdgCntEditor：PDF书签编辑
-
-
 - Kite_win：连手机，记录手机帧率
 - 冰点下载：下载百度文库等
 - Audacity：开源音频编辑软件
-- Watt Toolkit：GitHub,Steam DNS解析
-- 能源之星X：省电模式
+- Watt Toolkit：GitHub,Steam等DNS解析
+- 能源之星X：省电模式，感觉没啥用
 
 
 - netlimiter：软件下载限速，与火绒中的流量监视器作用类似
 
+## 图片处理
+
+- 光影魔术手：图片强化
+- ComicEnhancerPro5：图片修改，批处理；扫描件优化必备
+
+- PS：全能图片处理，要收费
+- GIMP：开源PS替代
+
+
+- Stable Diffusion, WebUI/InvokeAI/comfyUI：开源，AI生成编辑
 
 ## 编程开发
 
@@ -71,7 +75,11 @@
 - 稻壳阅读器：轻量文档阅读器，支持 PDF, EPUB, MOBI, AWZ3 等格式
 - Adobe acrcbat dc
 - 腾讯文档
-- wps
+- WPS
+
+
+- PDFPatcher：强大的开源pdf工具，PDF转图片，图片合成PDF
+- PdgCntEditor：PDF书签编辑
 
 
 - ABBYY FineReader PDF 15：文档ocr无敌，但有点贵
