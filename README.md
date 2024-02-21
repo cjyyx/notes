@@ -28,6 +28,8 @@
 
 ## 学习笔记
 
+[信号与系统总结](https://zhuanlan.zhihu.com/p/676552295)
+
 [嵌入式计算技术复习](https://zhuanlan.zhihu.com/p/668919802)
 
 [工程热力学总结](https://zhuanlan.zhihu.com/p/638534525)
@@ -44,6 +46,8 @@
 
 [格林函数法](https://zhuanlan.zhihu.com/p/626997324)
 
+[流体力学向量微积分基础](https://zhuanlan.zhihu.com/p/658981602)
+
 [球坐标系和柱坐标系下的分离变数法](https://zhuanlan.zhihu.com/p/626812353)
 
 [理论力学竞赛考前必背](https://zhuanlan.zhihu.com/p/668687030)
@@ -53,6 +57,8 @@
 [离散数学重点整理](https://zhuanlan.zhihu.com/p/639464918)
 
 [积分变换法](https://zhuanlan.zhihu.com/p/627068881)
+
+[自动控制原理总结](https://zhuanlan.zhihu.com/p/675466143)
 
 [计算方法重点整理](https://zhuanlan.zhihu.com/p/639696202)
 
