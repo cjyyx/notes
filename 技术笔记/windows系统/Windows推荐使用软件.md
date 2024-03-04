@@ -112,6 +112,8 @@
 
 - PrePoMax：开源有限元仿真
 
+- SimpleTex：好用的latex ocr
+
 ## 其它
 
 - potplayer：视频、音乐播放器
