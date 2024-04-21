@@ -38,6 +38,8 @@
 
 [数理方法考前必背](https://zhuanlan.zhihu.com/p/627085807)
 
+[机器人建模与控制期末总结](https://zhuanlan.zhihu.com/p/693756708)
+
 [机械设计基础 考前补天](https://zhuanlan.zhihu.com/p/640236746)
 
 [杆件拉压、剪切、扭转、弯曲模型](https://zhuanlan.zhihu.com/p/630770263)
@@ -57,6 +59,12 @@
 [离散数学重点整理](https://zhuanlan.zhihu.com/p/639464918)
 
 [积分变换法](https://zhuanlan.zhihu.com/p/627068881)
+
+[空气动力学总结(一)绪论与补充](https://zhuanlan.zhihu.com/p/693757107)
+
+[空气动力学总结(二)不可压流动](https://zhuanlan.zhihu.com/p/693757194)
+
+[空气动力学总结(二)可压缩流动](https://zhuanlan.zhihu.com/p/693757239)
 
 [自动控制原理总结](https://zhuanlan.zhihu.com/p/675466143)
 
