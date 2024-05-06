@@ -39,7 +39,7 @@ for note in getNotes("./项目笔记"):
 
 README+= "## 学习笔记\n\n"
 for note in getNotes("./学习笔记"):
-    if "离散数学（" in note[1]:
+    if ("离散数学（" in note[1]) or ("量子力学速通-目录" in note[1]):
         continue
     README += f"[{note[1]}]({note[2]})\n\n"
 

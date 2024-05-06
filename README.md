@@ -30,6 +30,8 @@
 
 [信号与系统总结](https://zhuanlan.zhihu.com/p/676552295)
 
+[塑性力学期末总结](https://zhuanlan.zhihu.com/p/696259136)
+
 [嵌入式计算技术复习](https://zhuanlan.zhihu.com/p/668919802)
 
 [工程热力学总结](https://zhuanlan.zhihu.com/p/638534525)
@@ -75,8 +77,6 @@
 [量子力学速通(2)量子系统](https://zhuanlan.zhihu.com/p/609219797)
 
 [量子力学速通(3)量子信息](https://zhuanlan.zhihu.com/p/609219886)
-
-[量子力学速通-目录](https://zhuanlan.zhihu.com/p/609544084)
 
 ## 想法
 
