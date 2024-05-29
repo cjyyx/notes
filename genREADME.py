@@ -1,6 +1,7 @@
 import os
-from pprint import pprint
 import re
+from pprint import pprint
+
 
 def getNotes(directory):
     note_files = []
@@ -27,25 +28,22 @@ def getNotes(directory):
             note_files.append((file_path, headings[0], note_link))
     return sorted(note_files, key=lambda x: x[1])
 
+
 README = "# 笔记目录\n\n"
 
-README+= "## 技术笔记\n\n"
-for note in getNotes("./技术笔记"):
+README += "## 博客\n\n"
+for note in sorted(getNotes("./Blog") + getNotes("./ProjectNotes"), key=lambda x: x[1]):
     README += f"[{note[1]}]({note[2]})\n\n"
 
-README+= "## 项目笔记\n\n"
-for note in getNotes("./项目笔记"):
-    README += f"[{note[1]}]({note[2]})\n\n"
-
-README+= "## 学习笔记\n\n"
-for note in getNotes("./学习笔记"):
+README += "## 学习笔记\n\n"
+for note in getNotes("./StudyNotes"):
     if ("离散数学（" in note[1]) or ("量子力学速通-目录" in note[1]):
         continue
     README += f"[{note[1]}]({note[2]})\n\n"
 
-README+= "## 想法\n\n"
-for note in getNotes("./想法"):
-    README += f"[{note[1]}]({note[2]})\n\n"
+# README+= "## 想法\n\n"
+# for note in getNotes("./想法"):
+#     README += f"[{note[1]}]({note[2]})\n\n"
 
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(README)

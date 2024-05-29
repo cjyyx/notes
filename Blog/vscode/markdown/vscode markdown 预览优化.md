@@ -1,5 +1,5 @@
 #! https://zhuanlan.zhihu.com/p/700473509
-# vscode markdown 预览优化：数学公式
+# VSCode Markdown 预览优化：数学公式
 
 最新版的 vscode 对 markdown 提供了较多支持，其在预览方面的体验甚至可以与 Markdown Preview Enhanced 插件相比。当然还有一些不足，这里提供了一些优化方法。
 

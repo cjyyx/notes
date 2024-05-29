@@ -1,16 +1,6 @@
 # 笔记目录
 
-## 技术笔记
-
-[VS Code 中 Markdown Preview Enhanced 插件利用 Chrome (Puppeteer) 导出 pdf 文件使用说明与问题解决](https://zhuanlan.zhihu.com/p/615810007)
-
-[VS Code 中 Markdown Preview Enhanced 插件利用 pandoc 导出 pdf 文件的一些问题](https://zhuanlan.zhihu.com/p/611580213)
-
-[Windows推荐使用软件](https://zhuanlan.zhihu.com/p/427322930)
-
-[基于 Termux 和 ipv6 把手机打造成公网服务器](https://zhuanlan.zhihu.com/p/665711668)
-
-## 项目笔记
+## 博客
 
 [FiPy常用API](https://zhuanlan.zhihu.com/p/614634508)
 
@@ -22,7 +12,17 @@
 
 [OpenFOAM-v2306 安装](https://zhuanlan.zhihu.com/p/660892262)
 
+[VS Code 中 Markdown Preview Enhanced 插件利用 Chrome (Puppeteer) 导出 pdf 文件使用说明与问题解决](https://zhuanlan.zhihu.com/p/615810007)
+
+[VS Code 中 Markdown Preview Enhanced 插件利用 pandoc 导出 pdf 文件的一些问题](https://zhuanlan.zhihu.com/p/611580213)
+
+[Windows推荐使用软件](https://zhuanlan.zhihu.com/p/427322930)
+
 [openfoam 修改 src 库](https://zhuanlan.zhihu.com/p/670815002)
+
+[vscode markdown 预览优化：数学公式](https://zhuanlan.zhihu.com/p/700473509)
+
+[基于 Termux 和 ipv6 把手机打造成公网服务器](https://zhuanlan.zhihu.com/p/665711668)
 
 [扫描版 PDF 目录制作指南](https://zhuanlan.zhihu.com/p/661004681)
 
@@ -77,8 +77,4 @@
 [量子力学速通(2)量子系统](https://zhuanlan.zhihu.com/p/609219797)
 
 [量子力学速通(3)量子信息](https://zhuanlan.zhihu.com/p/609219886)
-
-## 想法
-
-[ChatGPT对未来的影响预测](https://zhuanlan.zhihu.com/p/605185377)
 
