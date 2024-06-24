@@ -1,9 +1,10 @@
 #! https://zhuanlan.zhihu.com/p/700473509
+
 # VSCode Markdown 预览优化：数学公式
 
 最新版的 vscode 对 markdown 提供了较多支持，其在预览方面的体验甚至可以与 Markdown Preview Enhanced 插件相比。当然还有一些不足，这里提供了一些优化方法。
 
-参考：https://code.visualstudio.com/docs/languages/markdown
+参考：<https://code.visualstudio.com/docs/languages/markdown>
 
 ## 常规设置
 
@@ -37,3 +38,5 @@ markdown 预览本质上是一个网页，因此可以使用 CSS 优化。
 ```
 
 然后添加到 `markdown.styles` 。
+
+我也创建了 CSS 文件的url，可以添加 <https://gitee.com/ctlz/notes/raw/main/Blog/vscode/markdown/Style.css> 。

@@ -35,3 +35,12 @@ or
 
 pandoc test1.md -f markdown -t html -s -o test1.html
 ```
+
+## 转docx
+
+```bash
+chcp 65001
+pandoc "报告.md" -s -o test.docx -t docx --reference-doc "D:\\BackupNetdisk\\School\\智能控制技术及应用\\大作业\\MyProject\\custom-reference.docx"
+pandoc "报告.md" -s -o test.docx -t docx --reference-doc "custom-reference.docx"
+```
+

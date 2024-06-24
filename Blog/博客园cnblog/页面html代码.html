@@ -1,0 +1,107 @@
+<script src="https://blog-static.cnblogs.com/files/guangzan/loader.min.js"></script>
+
+<script>
+    const config = {
+        // 在这里添加自定义配置
+        theme: {
+            name: 'geek',
+            avatar: 'https://pic.cnblogs.com/avatar/3281293/20230917165414.png',
+
+        },
+        github: {
+            enable: true,
+            color: '#ffb3cc',
+            url: 'https://github.com/cjyyx',
+        },
+        signature: {
+            enable: true,
+            contents: [
+                "This theme is built with <b style='color:#ff6b81'>awescnb</b>.",
+                "<b>console.log(🍺);</b>",
+            ],
+        },
+        imagebox: {
+            enable: false,
+        },
+        click: {
+            enable: true,
+            auto: false,
+            colors: ['#FF1461', '#18FF92', '#5A87FF', '#FBF38C'],
+            size: 10,
+            maxCount: 30,
+        },
+        postSignature: {
+            enable: false,
+            enableLicense: false,
+            licenseName: '',
+            licenseLink: '',
+        },
+
+    }
+    $.awesCnb(config)
+
+    /* 
+    图片处理
+
+    1. 首先缩小为原来的 k1
+    2. 如果宽度大于段落宽度的 k2，则设置为段落宽度的 k2
+    
+    */
+
+    k1 = 0.75;
+    k2 = 0.8;
+
+    document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+            // 获取id为cnblogs_post_body的div
+            var postBody = document.getElementById('cnblogs_post_body');
+            if (postBody) {
+                // 获取div内所有的img元素
+                var images = postBody.getElementsByTagName('img');
+                // 遍历每个img元素
+                for (var i = 0; i < images.length; i++) {
+                    var img = images[i];
+
+                    // 确保在图片加载完成后执行
+                    img.addEventListener('load', function () {
+                        // 获取图片的原始宽度和高度
+                        var originalWidth = img.naturalWidth;
+                        var originalHeight = img.naturalHeight;
+
+                        // 将图片缩小为原来的 k1
+                        var newWidth = originalWidth * k1;
+                        var newHeight = originalHeight * k1;
+
+                        img.width = newWidth;
+                        img.height = newHeight;
+
+                        // 获取缩小后的img宽度和父段落的宽度
+                        var parentParagraph = img.parentElement;
+                        var parentWidth = parentParagraph.clientWidth;
+
+                        // console.log('originalWidth:', originalWidth);
+                        // console.log('newWidth:', newWidth);
+                        // console.log('parentWidth:', parentWidth);
+
+
+                        // 判断缩小后的img宽度是否仍然大于段落宽度的 k2
+                        if (newWidth > parentWidth * k2) {
+                            // console.log('resize');
+                            // 设置img宽度为段落宽度的 k2
+                            img.style.width = k2 * 100 + '%';
+                            img.style.height = 'auto';  // 保持纵横比
+                        }
+                    });
+
+                    // 如果图片已经加载，则立即触发load事件处理
+                    if (img.complete) {
+                        img.dispatchEvent(new Event('load'));
+                    }
+                }
+            }
+        }, 1000); // 延迟1秒执行
+    });
+
+
+
+</script>
