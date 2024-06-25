@@ -1,2 +1,0 @@
-python genREADME.py
-pause
