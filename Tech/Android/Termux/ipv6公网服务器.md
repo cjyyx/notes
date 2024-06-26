@@ -1,11 +1,14 @@
-#! https://zhuanlan.zhihu.com/p/665711668
+<!-- #! https://zhuanlan.zhihu.com/p/665711668
 # 基于 Termux 和 ipv6 把手机打造成公网服务器
+
+
+ -->
 
 ## Termux 安装与配置
 
 ### 安装
 
-从这下载： https://f-droid.org/en/packages/com.termux/
+从这下载： <https://f-droid.org/en/packages/com.termux/>
 
 ### 初始化
 
@@ -17,7 +20,7 @@ termux-setup-storage
 
 **换源**
 
-参考 https://mirrors.tuna.tsinghua.edu.cn/help/termux/
+参考 <https://mirrors.tuna.tsinghua.edu.cn/help/termux/>
 
 **安装基础软件**
 
@@ -50,7 +53,7 @@ passwd
 
 ### 获取 ipv6 地址
 
-首先确保连入的网络支持 ipv6。最简单的方法是访问 http://www.test-ipv6.com/ 查看 ipv6 连接情况。
+首先确保连入的网络支持 ipv6。最简单的方法是访问 <http://www.test-ipv6.com/> 查看 ipv6 连接情况。
 
 **方法1**
 
@@ -84,7 +87,7 @@ ssh <用户名>@<ipv6 地址> -p 8022
 
 参考这篇文章
 
-Termux解析公网ipv6——从全世界各地连接你的Termux, https://blog.csdn.net/YiBYiH/article/details/127550607
+Termux解析公网ipv6——从全世界各地连接你的Termux, <https://blog.csdn.net/YiBYiH/article/details/127550607>
 
 向 dnyv6 传递 ipv6 地址命令如下
 
@@ -178,9 +181,9 @@ print("--- %s seconds ---" % (time.time() - start_time))
 
 ## 参考资料
 
-- Termux-Ubuntu22.0.4项目部署（手机服务器实操！！）, https://blog.csdn.net/m0_56349886/article/details/129758123
-- Termux 公网ipv6 域名 ssh访问, https://blog.csdn.net/YiBYiH/article/details/127697310
-- 基于ipv6实现几乎零成本的内网穿透方案, https://zhuanlan.zhihu.com/p/638004070
-- 在Termux（非root的安卓Linux模拟器）中安装和使用ftp服务器, https://www.cnblogs.com/-fresh/p/10328331.html
-- Termux解析公网ipv6——从全世界各地连接你的Termux, https://blog.csdn.net/YiBYiH/article/details/127550607
-- Termux和Linux Deploy的性能测试, https://zhuanlan.zhihu.com/p/162121013
+- Termux-Ubuntu22.0.4项目部署（手机服务器实操！！）, <https://blog.csdn.net/m0_56349886/article/details/129758123>
+- Termux 公网ipv6 域名 ssh访问, <https://blog.csdn.net/YiBYiH/article/details/127697310>
+- 基于ipv6实现几乎零成本的内网穿透方案, <https://zhuanlan.zhihu.com/p/638004070>
+- 在Termux（非root的安卓Linux模拟器）中安装和使用ftp服务器, <https://www.cnblogs.com/-fresh/p/10328331.html>
+- Termux解析公网ipv6——从全世界各地连接你的Termux, <https://blog.csdn.net/YiBYiH/article/details/127550607>
+- Termux和Linux Deploy的性能测试, <https://zhuanlan.zhihu.com/p/162121013>

@@ -6,7 +6,9 @@
         theme: {
             name: 'geek',
             avatar: 'https://pic.cnblogs.com/avatar/3281293/20230917165414.png',
-
+            // avatar: 'https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpeg',
+            // headerBackground:'https://images.cnblogs.com/cnblogs_com/guangzan/1894231/o_201205070714banner1.jpg',
+            headerBackground:'https://picx.zhimg.com/v2-51c6c632e5e600eac56076f4406e9967_1440w.jpg?source=32738c0c',
         },
         github: {
             enable: true,
@@ -41,18 +43,30 @@
     $.awesCnb(config)
 
     /* 
-    图片处理
+    图片处理：
 
     1. 首先缩小为原来的 k1
-    2. 如果宽度大于段落宽度的 k2，则设置为段落宽度的 k2
+    2. 如果处于pc端，宽高比不大，且宽度大于段落宽度的 k2，则设置为段落宽度的 k2
     
     */
 
-    k1 = 0.75;
-    k2 = 0.8;
+    var k1 = 0.5;
+    var k2 = 0.8;
+
+    function isDesktop() {
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+
+        // 判断界面尺寸比例
+        const aspectRatio = width / height;
+
+        // 认为宽高比小于1是纵向（移动设备），宽高比大于1是横向（桌面设备）
+        return aspectRatio > 1;
+    }
 
     document.addEventListener("DOMContentLoaded", function () {
         setTimeout(function () {
+
             // 获取id为cnblogs_post_body的div
             var postBody = document.getElementById('cnblogs_post_body');
             if (postBody) {
@@ -64,32 +78,37 @@
 
                     // 确保在图片加载完成后执行
                     img.addEventListener('load', function () {
+
                         // 获取图片的原始宽度和高度
                         var originalWidth = img.naturalWidth;
                         var originalHeight = img.naturalHeight;
 
                         // 将图片缩小为原来的 k1
-                        var newWidth = originalWidth * k1;
-                        var newHeight = originalHeight * k1;
-
-                        img.width = newWidth;
-                        img.height = newHeight;
+                        img.width = originalWidth * k1;
+                        img.height = originalHeight * k1;
 
                         // 获取缩小后的img宽度和父段落的宽度
                         var parentParagraph = img.parentElement;
                         var parentWidth = parentParagraph.clientWidth;
 
-                        // console.log('originalWidth:', originalWidth);
-                        // console.log('newWidth:', newWidth);
-                        // console.log('parentWidth:', parentWidth);
+                        if (isDesktop()) {
+                            if (img.width / img.height < 2.2) {
 
+                                // 判断缩小后的img宽度是否仍然大于段落宽度的 k2
+                                if (img.width > parentWidth * k2) {
+                                    // console.log('resize');
+                                    // 设置img宽度为段落宽度的 k2
+                                    img.style.width = k2 * 100 + '%';
+                                    img.style.height = 'auto';  // 保持纵横比
+                                }
+                                
+                                // console.log("图片" + i + "处理完成");
+                            }
+                        }
 
-                        // 判断缩小后的img宽度是否仍然大于段落宽度的 k2
-                        if (newWidth > parentWidth * k2) {
-                            // console.log('resize');
-                            // 设置img宽度为段落宽度的 k2
-                            img.style.width = k2 * 100 + '%';
-                            img.style.height = 'auto';  // 保持纵横比
+                        if (img.width < parentWidth * 0.2) {
+                            img.style.width = '20%';
+                            img.style.height = 'auto';
                         }
                     });
 

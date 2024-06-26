@@ -39,4 +39,4 @@ markdown 预览本质上是一个网页，因此可以使用 CSS 优化。
 
 然后添加到 `markdown.styles` 。
 
-我也创建了 CSS 文件的url，可以添加 <https://gitee.com/ctlz/notes/raw/main/Blog/vscode/markdown/Style.css> 。
+我也创建了 CSS 文件的url，可以添加 <https://blog-static.cnblogs.com/files/blogs/825243/vscode-markdown-style.css> 。
