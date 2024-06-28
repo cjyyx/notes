@@ -1,5 +1,5 @@
-#! https://zhuanlan.zhihu.com/p/615810007
-# VS Code 中 Markdown Preview Enhanced 插件利用 Chrome (Puppeteer) 导出 pdf 文件使用说明与问题解决
+<!-- #! https://zhuanlan.zhihu.com/p/615810007
+# VSCode 中 Markdown Preview Enhanced 插件利用 Chrome (Puppeteer) 导出 PDF 文件使用说明与问题解决 -->
 
 ## 准备
 
@@ -32,7 +32,7 @@ puppeteer:
 
 这里 `format` 表示纸张格式，`scale` 表示缩放，`margin` 表示页边距。
 
-更多设置选项说明可以参考官方文档(https://github.com/puppeteer/puppeteer/blob/v1.8.0/docs/api.md#pagepdfoptions)
+更多设置选项说明可以参考官方文档 (<https://github.com/puppeteer/puppeteer/blob/v1.8.0/docs/api.md#pagepdfoptions>)
 
 ## 公式渲染问题
 
@@ -80,7 +80,7 @@ export_on_save:
 
 ## 图片调整大小
 
-导出的pdf文档中，图片可能过大，解决方法是添加自定义 css。
+导出的 pdf 文档中，图片可能过大，解决方法是添加自定义 css。
 
 即在 `front-matter` 后加上
 
@@ -93,7 +93,7 @@ img{
 </style>
 ```
 
-这段代码的意思是，把所有图片的宽度设置为段落宽度的60%，并向右移20%（即让图片居中）。
+这段代码的意思是，把所有图片的宽度设置为段落宽度的 60%，并向右移 20%（即让图片居中）。
 
 也可导入外部 css 文件。
 
@@ -106,7 +106,7 @@ img{
 }
 ```
 
-在markdown文件的`front-matter`后加上
+在 markdown 文件的`front-matter`后加上
 
 ```
 @import "style.css"
@@ -149,9 +149,8 @@ width: 10%;
 此时 markdown 写法如下，就可以调整图片大小
 
 ```markdown
-![img.png](./<path>/img.png#w60)
+![](img.png#w60)
 ```
-
 
 ## 页码显示
 
@@ -180,7 +179,7 @@ puppeteer:
 <p style="margin-bottom: 400px;"></p>
 ```
 
-换页，只有在导出为PDF时才会起作用
+换页，只有在导出为 PDF 时才会起作用
 
 ```markdown
 <div STYLE="page-break-after: always;"></div>
