@@ -1,6 +1,7 @@
-#! https://zhuanlan.zhihu.com/p/427322930
 
-# Windows推荐使用软件
+<!-- # Windows推荐使用软件
+https://www.cnblogs.com/cjyyx/p/18397279
+ -->
 
 个人记录，顺便分享
 
@@ -15,9 +16,9 @@
   - diskgenius：**超强**磁盘管理工具，数据恢复
   - spacesniffer：可视化查看文件占用空间
 
-- Trays：任务栏信息显示（不兼容新版win11）
 - TrafficMonitor：任务栏信息显示
 - ContextMenuManager：右键管理
+- WGestures2：鼠标手势，纵享丝滑
 
 ## 工具
 
@@ -25,8 +26,6 @@
 - bandzip
 - ev录屏
 - Free Download Manager：下载软件，2023年使用时遇到bug
-- Internet Download Manager：下载软件，收费
-
 
 - NeatConverter：文档格式转换
 
@@ -62,6 +61,9 @@
 - LookHandles：应用窗口查看
 - 发条js调试工具：js逆向
 - utools：随时唤出搜索框，逆天工具集合
+  - 剪贴板：类似中转站
+  - vscode：快速打开项目
+  - 兔子二维码：二维码生成与识别
 - GitHub Desktop：git GUI
 - CheatEngine：软件/游戏破解
 - SQLite Expert：sqlite数据库查看
@@ -86,7 +88,7 @@
 - PDF-XChange Viewer：基本免费，ocr不弱于ABBYY
 
 
-- Notepad3：记事本 pro max +
+- Notepad3：记事本 pro max ++
 - Typora：markdown编辑器
 
 
@@ -97,8 +99,7 @@
 - 知云文献翻译：阅读PDF格式英文书籍、论文
 - 全球学术快报（会内存泄漏）
 - 每日英语听力
-- NoteExpress：文献管理
-
+- Zotero：文献管理
 
 - AxGlyph：论文插图绘制
 - XMind 8：思维导图，打开xmind格式文件
@@ -130,4 +131,3 @@
 - Blender：3d建模，查看
 - TIM：平替QQ
 - Drawio：绘图工具，建议使用vscode插件版
-- Telegram

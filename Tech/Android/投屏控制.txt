@@ -1,0 +1,2 @@
+服务端：droidVNC-NG
+客户端：bVNC Free
