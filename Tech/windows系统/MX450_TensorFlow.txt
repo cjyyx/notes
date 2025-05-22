@@ -1,0 +1,40 @@
+
+安装必要的显卡软件
+
+https://blog.csdn.net/weixin_44720401/article/details/112252926
+
+检测
+
+```
+nvcc -V
+nvidia-smi
+```
+
+创建conda
+
+conda create -n tf_gpu_env python=3.9 -y
+conda activate tf_gpu_env
+
+conda install tensorflow-gpu
+
+修复错误
+AttributeError: module 'numpy' has no attribute 'object'
+
+进入tensorflow源码，修改
+
+np.object = np.object_
+np.bool = np.bool_
+onp.int = int
+
+检测gpu
+
+gpus = tf.config.experimental.list_physical_devices('GPU')
+
+cmd运行
+
+```
+chcp 65001
+CALL "C:\ProgramData\Anaconda3\Scripts\activate.bat" tf_gpu_env
+python xxx.py
+pause
+```

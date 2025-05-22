@@ -15,17 +15,21 @@ https://www.cnblogs.com/cjyyx/p/18397279
   - HWiNFO64：据说温度功耗检测比较好用
   - diskgenius：**超强**磁盘管理工具，数据恢复
   - spacesniffer：可视化查看文件占用空间
+  - WizTree：可视化查看文件占用空间，比spacesniffer更好用
+  - Core Temp：cpu功耗检测
 
 - TrafficMonitor：任务栏信息显示
 - ContextMenuManager：右键管理
 - WGestures2：鼠标手势，纵享丝滑
+
+- Wintoys：Windows优化，参考 https://www.bilibili.com/video/BV1GXVGzkEvK/
 
 ## 工具
 
 - 格式工厂
 - bandzip
 - ev录屏
-- Free Download Manager：下载软件，2023年使用时遇到bug
+- Free Download Manager：下载软件
 
 - NeatConverter：文档格式转换
 
@@ -38,6 +42,8 @@ https://www.cnblogs.com/cjyyx/p/18397279
 
 
 - netlimiter：软件下载限速，与火绒中的流量监视器作用类似
+
+- 必剪：视频剪辑
 
 ## 图片处理
 
@@ -126,8 +132,9 @@ https://www.cnblogs.com/cjyyx/p/18397279
 - 阿里云盘
 - 腾讯会议
 - zoom
-- TapFog
+
 - Clash For Windows
+- clashverge： https://www.clashverge.dev/index.html
 - Blender：3d建模，查看
 - TIM：平替QQ
 - Drawio：绘图工具，建议使用vscode插件版
