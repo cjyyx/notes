@@ -124,6 +124,7 @@ https://www.cnblogs.com/cjyyx/p/18397279
 ## 其它
 
 - potplayer：视频、音乐播放器
+- VLC：开源视频、音乐播放器
 - XnView：图片阅读器
 - 谷歌浏览器
 - 火绒：轻量杀毒软件
